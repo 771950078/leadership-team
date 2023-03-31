@@ -1,0 +1,75 @@
+body {
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: normal;
+    list-style: auto;
+    color: rgb(96, 185, 244);
+    background-color: black
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 2fr;
+    grid-gap: 20px;
+    grid-template-areas: "header hearder header" "content-1 content-2 content-3";
+    justify-content: center;
+}
+
+h2 {
+    color: greenyellow;
+    background: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: auto;
+    padding: 0px;
+}
+
+h3{
+    color: grey;
+    background: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: auto;
+    padding: 0px;
+}
+
+section {
+    padding: 20px;
+    background-color: black;
+    border: 2px solid white(96, 185, 244);
+}
+
+
+
+p {
+    color: white;
+    background: none;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    margin: auto;
+    padding: 0px 0px 0px;
+}
+
+.leadership {
+    color: rgb(0, 255, 255);
+  }
+  
+  .team {
+    color: white;
+  }
+
+header {
+    text-align: right;
+    font-family: sans-serif;
+    padding: 25px;
+    height: auto;
+    width: auto;
+    border: 10px;
+    display: grid;
+}
+
+
